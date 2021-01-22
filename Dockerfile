@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
     libreadline-dev \
     libncurses5-dev \
     m4 \
+    ca-certificates \
     procps \
     git \
     unzip  && \

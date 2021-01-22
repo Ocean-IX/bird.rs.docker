@@ -48,8 +48,8 @@ RUN cd bird-1.6.8 && \
     
 RUN rm -rf /root/bird-1.6.8
 
-COPY root/ /
+COPY root/ /root/
 
-RUN chmod +x /root/*.sh
+RUN chmod +x /root/run.sh
 
 CMD /root/run.sh
